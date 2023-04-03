@@ -102,3 +102,28 @@ main {
   top: 39%;
   z-index: 1;
 }
+
+h3 {
+  text-align: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.formInput {
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+}
+
+.submitButton {
+  margin-top: 1rem;
+  padding: .5rem 2rem;
+  align-self: center;
+  margin-top: 1rem;
+  background-color: teal;
+}

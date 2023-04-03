@@ -1,0 +1,137 @@
+main {
+  position: relative;
+}
+
+.topRow {
+  display: flex;
+  height: 100px;
+  margin-bottom: 15px;
+}
+
+.topRow>div {
+  background-color: teal;
+  flex: 1;
+}
+
+.topRow>div:nth-child(2) {
+  margin: 0 10px 0 10px;
+}
+
+.midRow {
+  height: 400px;
+  background-color: teal;
+  margin: 0 0 10px 0;
+}
+
+.botRow {
+  height: 20px;
+  background-color: greenyellow;
+}
+
+.circle {
+  border-radius: 50%;
+  z-index: 2;
+  position: absolute;
+}
+
+.one {
+  left: 20%;
+  top: 25%;
+  background-color: yellow;
+  width: 7em;
+  height: 7em;
+}
+
+.two {
+  left: 16%;
+  top: 10%;
+  background-color: rebeccapurple;
+  width: 40px;
+  height: 40px;
+}
+
+.three {
+  width: 30px;
+  height: 30px;
+  background-color: yellow;
+  left: 42%;
+  top: 15%;
+}
+
+.four {
+  width: 65px;
+  height: 65px;
+  background-color: rebeccapurple;
+  left: 50%;
+  top: 28%;
+}
+
+.five {
+  width: 15px;
+  height: 15px;
+  background-color: yellow;
+  left: 30%;
+  top: 15%;
+}
+
+.triangle {
+  width: 0;
+  height: 0;
+  z-index: 2;
+  position: absolute;
+}
+
+.tri-one {
+  border-left: 100px solid transparent;
+  border-right: 100px solid transparent;
+  border-bottom: 200px solid yellowgreen;
+  right: 5%;
+  top: 58%;
+  z-index: 3;
+}
+
+.tri-two {
+  border-left: 150px solid transparent;
+  border-right: 150px solid transparent;
+  border-bottom: 300px solid rgb(43, 61, 7);
+  right: 8%;
+  top: 39%;
+  z-index: 1;
+}
+
+.people {
+  display: flex;
+  position: absolute;
+  height: 200px;
+  width: 200px;
+  z-index: 3;
+  left: 5%;
+  top: 58%;
+  opacity: .8;
+
+}
+
+h3 {
+  text-align: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.formInput {
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+}
+
+.submitButton {
+  margin-top: 1rem;
+  padding: .5rem 2rem;
+  align-self: center;
+  margin-top: 1rem;
+  background-color: teal;
+}

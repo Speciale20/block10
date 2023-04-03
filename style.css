@@ -1,0 +1,13 @@
+div {
+  border: 1px solid black;
+}
+
+.topRow {
+  display: flex;
+  height: 100px;
+}
+
+.topRow>div {
+  background-color: teal;
+  flex: 1;
+}

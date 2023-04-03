@@ -1,7 +1,3 @@
-div {
-  /* border: 1px solid black; */
-}
-
 main {
   position: relative;
 }
@@ -101,6 +97,18 @@ main {
   right: 8%;
   top: 39%;
   z-index: 1;
+}
+
+.people {
+  display: flex;
+  position: absolute;
+  height: 200px;
+  width: 200px;
+  z-index: 3;
+  left: 5%;
+  top: 58%;
+  opacity: .8;
+
 }
 
 h3 {

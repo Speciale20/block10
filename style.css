@@ -1,13 +1,79 @@
 div {
-  border: 1px solid black;
+  /* border: 1px solid black; */
+}
+
+main {
+  position: relative;
 }
 
 .topRow {
   display: flex;
   height: 100px;
+  margin-bottom: 15px;
 }
 
 .topRow>div {
   background-color: teal;
   flex: 1;
+}
+
+.topRow>div:nth-child(2) {
+  margin: 0 10px 0 10px;
+}
+
+.midRow {
+  height: 400px;
+  background-color: teal;
+  margin: 0 0 10px 0;
+}
+
+.botRow {
+  height: 20px;
+  background-color: greenyellow;
+}
+
+.circle {
+  border-radius: 50%;
+  z-index: 2;
+  position: absolute;
+}
+
+.one {
+  left: 185px;
+  top: 150px;
+  background-color: yellow;
+  width: 7em;
+  height: 7em;
+}
+
+.two {
+  left: 200px;
+  top: 30px;
+  background-color: rebeccapurple;
+  width: 40px;
+  height: 40px;
+}
+
+.three {
+  width: 30px;
+  height: 30px;
+  background-color: yellow;
+  left: 500px;
+  top: 105px;
+}
+
+.four {
+  width: 65px;
+  height: 65px;
+  background-color: rebeccapurple;
+  left: 85px;
+  top: 65px;
+}
+
+.five {
+  width: 15px;
+  height: 15px;
+  background-color: yellow;
+  left: 375px;
+  top: 80px;
 }
